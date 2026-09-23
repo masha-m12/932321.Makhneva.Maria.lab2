@@ -1,6 +1,11 @@
+:root {
+    --main-color: #320652;
+    --accent-color: #ffffff;
+    --bg-color: #edd7fa;
+}
 body{
-    background-color: #edd7fa;
-    color: #320652;
+    background-color: var(--bg-color);
+    color: var(--main-color);
     margin: 0;
     padding: 0;
 }
@@ -10,14 +15,14 @@ header{
 }
 img{
     border-radius: 50%;
-    border: 2px solid #320652;
+    border: 2px solid var(--main-color);
 }
 aside{
     float: right;
     max-width: 290px;
     margin-right: 390px;
-    background-color: #ffffff;
-    border: 2px solid #320652;
+    background-color: var(--accent-color);
+    border: 2px solid var(--main-color);
     text-align: center;
 }
 main {
