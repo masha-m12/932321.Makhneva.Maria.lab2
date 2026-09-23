@@ -1,0 +1,32 @@
+body{
+    background-color: #edd7fa;
+    color: #320652;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    padding: 5px 10px 5px;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid #320652;
+}
+aside{
+    float: right;
+    max-width: 290px;
+    margin-right: 390px;
+    background-color: #ffffff;
+    border: 2px solid #320652;
+    text-align: center;
+}
+main {
+    margin-left: 390px;
+}
+form{
+    text-align: center;
+    padding: 5px 10px 5px;
+}
+footer{
+    text-align: center;
+}
