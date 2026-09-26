@@ -2,6 +2,7 @@
     --main-color: #320652;
     --accent-color: #ffffff;
     --bg-color: #edd7fa;
+    --font-mono: "Courier New", monospace;
 }
 body{
     background-color: var(--bg-color);
@@ -52,6 +53,9 @@ button:focus {
 footer{
     text-align: center;
 }
+a {
+    color: var(--main-color);
+}
 a:visited {
     color: #250c5b;
 }
@@ -63,4 +67,3 @@ a:visited {
     position: absolute;
     right: -17px;
 }
-
