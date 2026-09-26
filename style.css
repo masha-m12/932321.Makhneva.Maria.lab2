@@ -10,6 +10,7 @@ body{
     padding: 0;
 }
 header{
+    position: static;
     text-align: center;
     padding: 5px 10px 5px;
 }
@@ -21,9 +22,9 @@ aside{
     float: right;
     max-width: 290px;
     margin-right: 390px;
-    background-color: var(--accent-color);
     border: 2px solid var(--main-color);
     text-align: center;
+    padding: 5px 15px 25px;
 }
 main {
     margin-left: 390px;
@@ -51,11 +52,15 @@ button:focus {
 footer{
     text-align: center;
 }
+a:visited {
+    color: #250c5b;
+}
 .project {
     position: relative;
+    display: inline-block;
 }
-
 .favorite {
     position: absolute;
     right: -17px;
 }
+
